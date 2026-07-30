@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: #0C4A5F;
+    color: white;
+    font-weight: bold;
+    
+    text-align: center;
+    font-family: "Tourney", sans-serif;
+    
+}
+
+
+h3 {
+    font-size: 50px;
+    margin: 50px 0px;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+#counter1, #counter2 {
+    font-size: 150px;
+    color: #F94F6D;
+    
+    
+}
+
+.box {
+    width: 250px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    
+}
+
+
+
+
+button {
+    margin: 30px 10px 30px 10px;
+    width: 55px;
+    height: 55px;
+    border: 3px solid #9AABD8;
+    border-radius: 10px;
+    background-color: #0C4A5F;
+    color: #9AABD8;
+    font-size: 23px;
+    font-weight: bolder;
+    
+ 
+    
+}
+
+button:hover {
+    background-color: #0C4A4F;
+    text-shadow: 0px 0px 20px black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
